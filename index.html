@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fundoForm">
+        <div class="newTask">
+            <div class="labelform">
+                <label for="tarefatext">Tarefa á fazer:</label><br>
+                <input type="text" id="tarefatext">
+            </div>
+            <div class="labelform">
+                <label for="datatext">Data:</label><br>
+                <input type="date" id="datatext">
+            </div>
+            <br>
+            <button id="btn-salvar" style="margin-top: 2%; width: 70px; margin-left: auto; margin-right: auto;">Salvar</button>
+            <button id="btn-cancelar" style="margin-top: 2%; width: 70px; margin-left: auto; margin-right: auto; float:right;">Cancelar</button>
+        </div>
+   </div>
+    <section class="sectionMain">
+        <section class="tarefas">
+            <div class="table">
+                <h2>Tarefas a fazer</h2><br>
+                <button id="OrdenarPorData" style="width: 150px; height: 30px; margin: 0 auto;">Ordenar por data</button>
+                <table id="listaAfazer">
+                    <tr>
+                        <th></th>
+                        <th>Feito?</th>
+                        <th>Tarefa</th>
+                        <th>Data</th>
+                    </tr>
+                </table>
+                <br>
+                <button id="btnNovatarefa" style="width: 100px; height: 30px;">Nova Tarefa</button> <br>
+                
+            </div>
+        </section>
+       
+    <script src="main.js"></script>
+</body>
+</html>
